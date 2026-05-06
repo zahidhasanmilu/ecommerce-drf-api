@@ -1,0 +1,5 @@
+# core/permissions/__init__.py
+from .is_admin_or_readonly import IsAdminOrReadOnly
+from .is_customer_or_readonly import IsCustomerOrReadOnly
+from .is_owner_or_readonly import IsOwnerOrReadOnly
+from .is_shop_owner_or_readonly import IsShopOwnerOrReadOnly
